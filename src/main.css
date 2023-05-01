@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fondo.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Serif', serif;
+}
+
+h1{
+    font-size: 56px;
+    text-align: center;
+    font-family: 'Nabla', cursive;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #c2bfbf;
+}
+  
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+  
+th {
+    background-color: rgb(175, 212, 255);
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: right;
+    float: right; 
+    margin-right: 32px;
+}
+
+.cont {
+    text-align: right;
+} 
+button {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #369e16;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+.titulo:hover {
+    background-color: #eb8d00;
+}
+.puntos:hover {
+    background-color: #eb8d00;
+}
+  
+.main {
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #369e16;
+    color: #000000;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+  
+.main:hover {
+    background-color: #eb8d00;
+}
+  
+select {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    appearance: none;
+    /* Agregamos una imagen de fondo */
+    background-image: url("flecha-select.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  

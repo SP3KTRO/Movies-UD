@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Peliculas UD</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Pelis UD</h1>
+  <ul id="datos"></ul>
+  <button type="button" id="btn" class="main" onclick="obtenerDatos();">Lista de Peliculas</button>
+  <h2>Ordenar Por:</h2>
+  <div class="cont">
+    <button id="titulo" class="titulo" onclick="ordenarTitulo();">Titulo</button>
+    <button id="puntos" class="puntos" onclick="ordenarPuntos();">Puntuación</button>
+  </div>
+  
+  <table id="tabla">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Titulo</th>
+        <th>Director</th>
+        <th>Año</th>
+        <th>Puntuación</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script src="metodo.js"></script>
+</body>
+</html>
